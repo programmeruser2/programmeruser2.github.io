@@ -134,7 +134,7 @@ I ran through the main function in GDB and it turns out that the conditions are 
 Finally, to get a libc leak, we can just simply read off the GOT with some brainfuck code. Do be careful to make sure `putchar` is resolved before trying to leak it, which we can do by printing out some random character before our exploit. Also, we have to use the `,` instruction instead of the `+`/`-` instructions here because we don't know what bytes we need to write before the libc leak.
 
 Full exploit code: 
-```python3
+```python
 # leak libc base
 # write one-gadget to puts got 
 '''
