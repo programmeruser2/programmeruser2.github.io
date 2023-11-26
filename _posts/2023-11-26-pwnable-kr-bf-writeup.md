@@ -7,9 +7,12 @@ title: pwnable.kr - bf writeup
 > I made a simple brain-fuck language emulation program written in C. 
 > The [ ] commands are not implemented yet. However the rest functionality seems working fine. 
 > Find a bug and exploit it to get a shell. 
+>
 > 
 > Download : http://pwnable.kr/bin/bf
+> 
 > Download : http://pwnable.kr/bin/bf_libc.so
+>
 > 
 > Running at : nc pwnable.kr 9001
 
